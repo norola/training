@@ -30,6 +30,3 @@ provider "aws" {
 ## REPO: https://github.com/hashicorp/terraform-aws-consul
 ##
 ############################################################
-module "consul" {
-  source = "git@github.com:hashicorp/terraform-aws-consul.git"
-}
