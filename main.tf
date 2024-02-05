@@ -31,5 +31,6 @@ provider "aws" {
 ##
 ############################################################
 module "consul" {
-  source = "test version"
+
+  source = "test Master "
 }
